@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Верстка сайта с Parallax эффектом</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="/verstkaParallax/libs/gsap/gsap.min.js" defer></script>
+    <script src="/verstkaParallax/libs/gsap/ScrollSmoother.min.js" defer></script>
+    <script src="/verstkaParallax/libs/gsap/ScrollTrigger.min.js" defer></script>
+
+    <script src="app.js" defer></script>
+
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <div class="content">
+
+            <header class="main-header">
+                <div class="layers">
+                    <div class="layers__header">
+                        <div class="layer__caption">Welcome to Parallax</div>
+                        <div class="layer__title">Fairy Forest</div>
+                    </div>
+
+                    <div class="layer layers__base" style="background-image: url(/verstkaParallax/img/layer-base.png);"></div>
+                    <div class="layer layers__middle" style="background-image: url(/verstkaParallax/img/layer-middle.png);"></div>
+                    <div class="layer layers__front" style="background-image: url(/verstkaParallax/img/layer-front.png);"></div>
+                </div>
+            </header>
+
+            <article class="main-article" style="background-image: url(/verstkaParallax/img/dungeon.jpg);">
+                <div class="main-article__content">
+                    <h2 class="main-article__header">To be continued</h2>
+                    <p class="main-article__paragraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt totam ut eius unde nihil
+                        atque,
+                        accusamus, odit temporibus cum
+                        molestias ducimus officia a, fuga iste nobis magni eaque. Perspiciatis harum cupiditate possimus.</p>
+                </div>
+                <div class="copy">© my Name Fun = Lerich</div>
+            </article>
+
+        </div>
+    </div>
+
+</body>
+
+</html>
